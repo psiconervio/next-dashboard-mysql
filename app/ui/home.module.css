@@ -1,0 +1,8 @@
+/* permite utilizar css como modulo sirve para no repetir cards */
+.shape{
+    height: 0;
+    width: 0;
+    border-left: 20px transparent;
+    border-right: 20px transparent;
+    border-bottom: 50px black;
+}
