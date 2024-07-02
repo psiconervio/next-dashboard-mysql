@@ -13,11 +13,15 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
         <header>
           <div>
-          <h1>h1 de header</h1>
+          <h1 >h1 de header</h1>
           </div>
         </header>
         {/* el children es el page.psx */}
-        {children}</body>
+        {children}
+        <footer className='py-10 flex justify-center items-center '>
+          <h1 className='color bg-white'>este es el footer</h1>
+            </footer>
+            </body>
     </html>
   );
 }
