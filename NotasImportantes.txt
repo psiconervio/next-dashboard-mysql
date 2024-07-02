@@ -1,0 +1,1 @@
+next y react renderizan en el servidor
