@@ -3,6 +3,8 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import  styles  from "./ui/home.module.css";
 import Image from 'next/image';
+import Weather from './components/weather';
+
 
 export default function Page() {
   return (
@@ -37,6 +39,7 @@ export default function Page() {
           height={760}
           className='hidden md:block'/>
         </div>
+        <Weather />
       </div>
     </main>
   );

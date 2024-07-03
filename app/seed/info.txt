@@ -1,0 +1,8 @@
+Sembrar su base de datos
+Ahora que su base de datos ha sido creada, vamos a alimentarla con algunos datos iniciales.
+
+Dentro de /app, hay una carpeta llamada seed. Esta carpeta contiene un controlador de ruta Next.js , llamado route.ts, que se usará para inicializar su base de datos. Esto crea un punto final del lado del servidor al que puede acceder en el navegador para comenzar a completar su base de datos.
+
+No se preocupe si no entiende todo lo que hace el código, pero para darle una descripción general, el script usa SQL para crear las tablas y los datos del placeholder-data.tsarchivo para completarlas después de que se hayan creado.
+
+Asegúrese de que su servidor de desarrollo local se esté ejecutando pnpm run devy navegue hastalocalhost:3000/seeden su navegador. Cuando haya terminado, verá un mensaje que dice "Base de datos se sembró correctamente" en el navegador. Una vez completado, puede eliminar este archivo.
