@@ -4,6 +4,7 @@ import Link from 'next/link';
 import  styles  from "./ui/home.module.css";
 import Image from 'next/image';
 import Weather from './components/weather';
+import UserList from './components/UserList';
 
 
 export default function Page() {
@@ -40,6 +41,7 @@ export default function Page() {
           className='hidden md:block'/>
         </div>
         <Weather />
+        <UserList />
       </div>
     </main>
   );
