@@ -20,3 +20,32 @@ input[type='number']::-webkit-outer-spin-button {
 body{
   background:#ddd;
 }
+/* styles/globals.css */
+.header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: #4a4a4a;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #1d4ed8;
+}
+
+.nav-link.active {
+  color: #1d4ed8;
+}

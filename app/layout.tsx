@@ -1,7 +1,10 @@
 
 import { montserrat } from './ui/fonts';
 import './ui/global.css'
+import Headernav from "./components/Headernav";
 // estilos cargados globalmente
+//aca van los componentes para estructurar el html de la pagina
+
 
 export default function RootLayout({
   children,
@@ -11,11 +14,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${montserrat.className} antialiased`}>
-        <header>
-          <div>
-          <h1 >h1 de header</h1>
-          </div>
-        </header>
+      <Headernav/>
         {/* el children es el page.psx */}
         {children}
         <footer className='py-10 flex justify-center items-center '>
